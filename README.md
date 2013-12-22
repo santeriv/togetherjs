@@ -1,6 +1,21 @@
 TogetherJS - Who you call when you get stuck
 ===========================================
 
+uick standalone setup
+----------------------
+```sh
+npm
+npm install
+npm install -g grunt-cli
+set HUB_URL=ws://localhost:10909
+grunt build buildsite --no-hardlink --force
+node devserver.js 9090
+cd hub
+set PORT=10909 & node server.js 
+open http://localhost:9090/
+
+```
+
 What is TogetherJS?
 -----------------
 
