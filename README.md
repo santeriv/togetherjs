@@ -1,7 +1,7 @@
 TogetherJS - Who you call when you get stuck
 ===========================================
 
-uick standalone setup
+Quick standalone setup
 ----------------------
 ```sh
 npm
